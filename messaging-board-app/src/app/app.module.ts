@@ -12,6 +12,8 @@ import { AppHeaderComponent } from './app-header/app-header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { AuthComponent } from './auth/auth.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import { AuthComponent } from './auth/auth.component';
     AppHeaderComponent,
     FooterComponent,
     HomeComponent,
-    AuthComponent
+    AuthComponent,
+    SidenavComponent,
   ],
   imports: [
     BrowserModule,
